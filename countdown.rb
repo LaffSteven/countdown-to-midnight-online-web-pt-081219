@@ -2,10 +2,9 @@
 
 def countdown (t_minus)
   until t_minus == 0 do
-    if t_minus > 1
-      puts "#{t_minus} SECONDS!"
-    else
-      puts "#{t_minus} SECOND!"
-    end
+      puts "#{t_minus} SECOND(S)!"
+      t_minus -= 1
+      sleep 1
   end
+  puts "HAPPY NEW YEAR!"
 end
