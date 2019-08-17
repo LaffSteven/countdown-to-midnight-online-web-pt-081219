@@ -10,3 +10,5 @@ def countdown (t_minus)
   end
   puts "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep
